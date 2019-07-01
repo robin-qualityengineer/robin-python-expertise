@@ -1,0 +1,2 @@
+Sets are unordered collection of unique elements.
+Meaning there can be only one representative of the same object.

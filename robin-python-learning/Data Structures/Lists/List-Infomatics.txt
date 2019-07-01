@@ -1,0 +1,5 @@
+Lists are ordered sequences that can hold a variety of object types.
+They use [] brackets and  commas to separate objects in the list.
+ - [1,2,3,4,5]
+List support indexing and slicing.
+List can be nested and also have a variety of useful methods that can be called off to them.

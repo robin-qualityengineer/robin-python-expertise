@@ -1,0 +1,13 @@
+
+Dictionaries are unordered mappings for storing objects. 
+Previously, we saw how lists store objects in an ordered sequence, dictionary uses Key-Value pair instead.
+This Key-Value pair allows users to quickly grab objects without needing to know an index location
+Dictionary uses curly braces and colons to signify the keys and their associated values.
+{'key1':'value1','key2':'value2'}
+
+So, when to choose a list and when to choose a dictionary?
+Dictionaries: Objects retrieved by Key name. Unordered and cannot be sorted.
+Lists: Objects retrived by location. Ordered sequence can be indexed or sliced.
+
+Do dictionaries keep an order? How do I print the values of dictionary in order?
+Dictionaries are mappings and do not retain order! If you do want the capabilities of dictionary but would like ordering as well, check out ordereddict object.
