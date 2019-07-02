@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Statements\Booleans\Boolean.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Data Structures\Dictionaries\Dictionary.py">
       <SubType>Code</SubType>
     </Compile>
@@ -32,6 +35,19 @@
     <Compile Include="Data Structures\Tuples\Tuples.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Files\OpenFile.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Statements\For\For.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Statements\If\If_Percentage.py" />
+    <Compile Include="Statements\If\If_Age.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Statements\While\While.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data Structures\" />
@@ -39,12 +55,24 @@
     <Folder Include="Data Structures\Dictionaries\" />
     <Folder Include="Data Structures\Sets\" />
     <Folder Include="Data Structures\Tuples\" />
+    <Folder Include="Statements\Booleans\" />
+    <Folder Include="Statements\" />
+    <Folder Include="Files\" />
+    <Folder Include="Statements\If\" />
+    <Folder Include="Statements\For\" />
+    <Folder Include="Statements\While\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Statements\Booleans\Booleans.txt" />
     <Content Include="Data Structures\Dictionaries\Dictionaries-Informatics.txt" />
     <Content Include="Data Structures\Lists\List-Infomatics.txt" />
     <Content Include="Data Structures\Sets\Sets.txt" />
     <Content Include="Data Structures\Tuples\Tuples.txt" />
+    <Content Include="Files\myFile.txt" />
+    <Content Include="Files\Files.txt" />
+    <Content Include="Statements\For\For.txt" />
+    <Content Include="Statements\If\if.txt" />
+    <Content Include="Statements\While\While.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

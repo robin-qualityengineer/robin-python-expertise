@@ -1,0 +1,17 @@
+While loop will continue to execute a block of code while some conditions remain True.
+For example, while my pool is not full, keep filing my pool with water.
+Or, while my dogs are still hungry, keep feeding my dogs.
+
+Syntax:
+	while some_boolean_condition:
+		#do something
+	else:
+		#do something different
+
+
+Break, Continue and Pass
+
+We can't use break, continue and pass statements in our loops to add aditional functionality for various cases. The three statements are defined by:
+break: Break out of the current closest enclosing loop.
+continue: Goes to the top of closest enclosing loop.
+pass: Does noting at all
