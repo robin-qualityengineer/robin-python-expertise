@@ -22,6 +22,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Functions\Function.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Functions\Function_Exersises.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Methods\module1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Statements\Booleans\Boolean.py">
       <SubType>Code</SubType>
     </Compile>
@@ -45,6 +54,12 @@
     <Compile Include="Statements\If\If_Age.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Statements\Useful Operators\List_Comprehensions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Statements\Useful Operators\Operators.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Statements\While\While.py">
       <SubType>Code</SubType>
     </Compile>
@@ -55,14 +70,19 @@
     <Folder Include="Data Structures\Dictionaries\" />
     <Folder Include="Data Structures\Sets\" />
     <Folder Include="Data Structures\Tuples\" />
+    <Folder Include="Functions\" />
+    <Folder Include="Methods\" />
     <Folder Include="Statements\Booleans\" />
     <Folder Include="Statements\" />
     <Folder Include="Files\" />
     <Folder Include="Statements\If\" />
     <Folder Include="Statements\For\" />
+    <Folder Include="Statements\Useful Operators\" />
     <Folder Include="Statements\While\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Functions\Functions.txt" />
+    <Content Include="Methods\Methods.txt" />
     <Content Include="Statements\Booleans\Booleans.txt" />
     <Content Include="Data Structures\Dictionaries\Dictionaries-Informatics.txt" />
     <Content Include="Data Structures\Lists\List-Infomatics.txt" />

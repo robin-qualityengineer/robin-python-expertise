@@ -1,0 +1,2 @@
+Methods:
+Built-in objects in Python have a variety of methods you can use!
